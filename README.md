@@ -1,6 +1,6 @@
 # MySpider
 
-Pega todas as urls e e-mails de urls a partir de uma url inicial.
+Escaneia Urls buscando emails.
 
 ## Como Instalar?
 
