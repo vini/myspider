@@ -1,27 +1,17 @@
-# CakePHP Application Skeleton
+# MySpider
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+Desenvolvido em Cake 3.2
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
+# Como funciona?
+Pega todas as urls e e-mails de urls a partir de uma url inicial.
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+## Como Rodar?
 
-## Installation
+1 - Executar o dump do webx.sql no MySQL
+2 - Configurar em config\app.php o login do seu servidor de banco de dados e o nome do banco de dados
 
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+## Como Rodar?
 
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
-
-You should now be able to visit the path to where you installed the app and see
-the setup traffic lights.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
-# myspider
+1 - Abrir console e rodar o bin\cake spider
+2 - Manter aberto em background
+3 - Acessar o Front-End pelo navegador
